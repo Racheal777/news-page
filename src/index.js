@@ -6,6 +6,7 @@ import Index from './components';
 import About from './components/about';
 import Article from './components/article';
 import Articles from './components/articles';
+import Notfound from './components/notfound';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -17,11 +18,19 @@ ReactDOM.render(
         <Route index element= {<Index/>}></Route>
           <Route path='about' element={<About/>}></Route>
           <Route path='article' element= {<Articles/>}>
-            <Route path=':articleId' element= {<Article/>}></Route>
+            
           </Route>
 
+          <Route path='article/:articleId' element= {<Article/>}>
+          
+          </Route>
 
+          <Route path='*' element= {<Notfound/>}></Route>
+          
         </Route>
+        
+
+        
       </Routes>
     
     </React.StrictMode>,

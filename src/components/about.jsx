@@ -5,11 +5,19 @@ export default function About() {
     <div>
 
       <section className='about-page'>
-
+      <h1>About Section</h1>
         <div className='about'>
 
+        <div className='imgs'>
+        <img src='../images/pict.jpg' alt='pic'/>
+        </div>
+
+        <div className='about-sect'>
         
-            <h1>About Session</h1>
+
+        <h2>
+          This is a mini blog page to read and learn more about your favorite topic
+        </h2>
               <p>Lorem Ipsum is simply dummy text of the printing and 
                   typesetting industry. Lorem Ipsum has been the industry's standard dummy 
                   text ever since the 1500s, </p>
@@ -23,6 +31,8 @@ export default function About() {
                       Ipsum passages, and more recently with desktop publishing software
                        like Aldus PageMaker including versions of Lorem Ipsum.
                   </p>
+        </div>
+            
                   </div>
       </section>
 

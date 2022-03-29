@@ -1,89 +1,100 @@
 import React from 'react'
 
 let articles = [
-    
-
     {
         "id": 1001,
-        "author": "TMZ Staff",
-        "title": "Rafael Nadal Pulls Out Of U.S. Open Over COVID-19 Concerns",
-        "description": "Rafael Nadal is officially OUT of the U.S. Open ... the tennis legend said Tuesday it's just too damn unsafe for him to travel to America during the COVID-19 pandemic. \"The situation is very complicated worldwide,\" Nadal wrote in a statement. \"The…",
-        "url": "https://www.tmz.com/2020/08/04/rafael-nadal-us-open-tennis-covid-19-concerns/",
-        "source": "TMZ.com",
-        "image": "https://imagez.tmz.com/image/fa/4by3/2020/08/04/fad55ee236fc4033ba324e941bb8c8b7_md.jpg",
-        "category": "general",
-        "language": "en",
-        "country": "us",
-        "published_at": "2020-08-05T05:47:24+00:00"
+        "author": "Tara Prasad Routray",
+        "title": "Top 30 Git Commands You Should Know To Master Git ",
+        "description": `
+                    Set Up Your Username and Email. The username is required to link commits
+                    with your name. It is not the same as your GitHub account username, which
+                    you use to login into your GitHub profile. You can set or update your 
+                    username by using the git config command. The new name will automatically
+                    reflect in any future commits that you push to GitHub from the command line.`,
+        "url": "https://medium.com/gitconnected/top-30-git-commands-you-should-know-to-master-git-cli-f04e041779bc",
+        "source": "ABC News",
+        "image": "../images/pics2.jpg",
+        "published_at": "2020-07-26T01:04:23+00:00"
     },
 
     {
         "id": 1002,
-        "author": "Dan Peck",
-        "title": "Hurricane Hanna makes landfall around 5 p.m. on Saturday.",
-        "description": "Hurricane Hanna battered southern Texas with sustained winds of 75 mph and continued to deliver heavy rain and flash flooding as it moved inland late Saturday.",
-        "url": "https://abcnews.go.com/US/hurricane-hanna-makes-landfall-texas/story?id=71985566",
-        "source": "ABC News",
-        "image": "https://s.abcnews.com/images/US/hanna-swimmer-mo_hpMain_20200725-163152_2_4x3t_384.jpg",
-        "category": "general",
-        "language": "en",
-        "country": "us",
+        "author": "Eric Elliott",
+        "title": "10 Interview Questions Every JavaScript Developer Should Know",
+        "description": `
+        1.Can you name two programming paradigms important for JavaScript app developers?
+        JavaScript is a multi-paradigm language, supporting imperative/procedural 
+        programming along with OOP (Object-Oriented Programming) and functional programming.
+         JavaScript supports OOP with prototypal inheritance.
+
+         2. What is functional programming?
+        Functional programming produces programs by composing mathematical
+         functions and avoids shared state & mutable data. Lisp (specified in 1958) 
+         was among the first languages to support functional programming, and was heavily 
+         inspired by lambda calculus. Lisp and many Lisp family languages are still in common use today.
+        
+        .`,
+        "url": "https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95",
+        "source": "Medium",
+        "image": "../images/pics3.jpg",
         "published_at": "2020-07-26T01:04:23+00:00"
     },
+
     {
         "id": 1003,
-        "author": "TMZ Staff",
-        "title": "Nicki Minaj's Husband Gets Permission To Be There For Baby's Birth",
-        "description": "Kenneth can be in the room when Nicki gives birth ... a judge just granted his request to tweak his pre-trial release conditions so he can travel with Nicki. With the court's order in place, KP can travel with Nicki periodically on biz…",
-        "url": "https://www.tmz.com/2020/07/30/nicki-minaj-husband-asks-judge-be-there-child-birth/",
-        "source": "TMZ.com",
-        "image": "https://imagez.tmz.com/image/c1/4by3/2020/07/30/c115ad2dc849438a97a0ad3097b416df_md.jpg",
-        "category": "general",
-        "language": "en",
-        "country": "us",
-        "published_at": "2020-08-01T05:34:47+00:00"
+        "author": "Brandon Morelli",
+        "title": "JavaScript: What the heck is a Callback? ",
+        "description": `
+        What is a Callback? Simply put: A callback is a function that is to be
+         executed after another function has finished executing — hence the name ‘call back’.
+        More complexly put: In JavaScript, functions are objects. Because of this,
+         functions can take functions as arguments, and can be returned by other functions.
+          Functions that do this are called higher-order functions. Any function that is passed as an argument is called a callback function.`,
+
+        "url": "https://medium.com/codeburst/javascript-what-the-heck-is-a-callback-aba4da2deced",
+        "source": "Medium",
+        "image": "../images/pics4.jpg",
+        "published_at": "2022-02-06T01:04:23+00:00"
     },
+
     {
         "id": 1004,
-        "author": "Michael Rothstein",
-        "title": "New Lions safety Jayron Kearse suspended three games",
-        "description": "Kearse, 26, signed with the Lions in March after four seasons in Minnesota, where he played in 62 games with five starts, making 79 tackles and defending eight passes.",
-        "url": "https://www.espn.com/nfl/story/_/id/29572640/new-lions-safety-jayron-kearse-suspended-three-games",
-        "source": "ESPN",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0111%2Fr651071_1296x729_16%2D9.jpg",
-        "category": "sports",
-        "language": "en",
-        "country": "us",
-        "published_at": "2020-07-31T23:23:14+00:00"
+        "author": "Daniel Yerimah",
+        "title": "ReactJS: Spread Operator(…) simplified ",
+        "description": `
+        The Spread operator is a Javascript operator that can be used when all 
+        elements from an object or array need to be included in a list of some kind.
+         It offers you access to the internals of an iterable.
+        The word “iterable” refers to a group of data types in computer science. 
+        Arrays, object literals, and strings, to be specific.
+        
+        In a simpler term, a Spread operator allows us to quickly copy 
+        all or part of an existing array or object into another array or object.
+         It is an ES6 syntax represented with a three-dot (…).`,
+
+        "url": "https://medium.com/@danielyerimah/reactjs-spread-operator-simplified-343e3592d95c",
+        "source": "Medium",
+        "image": "../images/pics5.jpg",
+        "published_at": "2021-08-16T01:04:23+00:00"
     },
 
     {
         "id": 1005,
-        "author": "Dan Peck",
-        "title": "Hurricane Hanna makes landfall around 5 p.m. on Saturday.",
-        "description": "Hurricane Hanna battered southern Texas with sustained winds of 75 mph and continued to deliver heavy rain and flash flooding as it moved inland late Saturday.",
-        "url": "https://abcnews.go.com/US/hurricane-hanna-makes-landfall-texas/story?id=71985566",
-        "source": "ABC News",
-        "image": "https://s.abcnews.com/images/US/hanna-swimmer-mo_hpMain_20200725-163152_2_4x3t_384.jpg",
-        "category": "general",
-        "language": "en",
-        "country": "us",
-        "published_at": "2020-07-26T01:04:23+00:00"
-    },
-    
+        "author": "Pranita Patil",
+        "title": "Node Js Basics",
+        "description": `
+        Node.js is an open-source framework based on JavaScript. It was developed by Ryan Dahl in 2009.
+        It is designed from the JavaScript V8 Engine of Google Chrome.
+        Node.js allows the JavaScript to run on the machine –
+        It allows access to the file system on the machine
+        It listens to network traffic on the machine
+        It can handle HTTP requests like a Web server and send back responses including files
+        It can directly access databases from JavaScript`,
 
-    {
-        "id": 1006,
-        "author": "CNN Staff",
-        "title": "This may be the big winner of the market crash",
-        "description": "This may be the big winner of the market crash",
-        "url": "http://rss.cnn.com/~r/rss/cnn_topstories/~3/KwE80_jkKo8/a-sa-dd-3",
-        "source": "CNN",
-        "image": "https://cdn.cnn.com/cnnnext/dam/assets/150325082152-social-gfx-cnn-logo-super-169.jpg",
-        "category": "general",
-        "language": "en",
-        "country": "us",
-        "published_at": "2020-07-17T23:35:06+00:00"
+        "url": "https://medium.com/@pranitapatilk/node-js-basics-34d7f9c3ef3b",
+        "source": "Medium",
+        "image": "../images/pics6.jpg",
+        "published_at": "2022-03-16T01:04:23+00:00"
     },
 ]
 
