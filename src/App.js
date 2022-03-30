@@ -15,6 +15,7 @@ function App() {
           <li><NavLink to = '/'> Home</NavLink> </li>
           <li> <NavLink to = 'about'>About</NavLink></li>
           <li><NavLink to = 'article'>Articles</NavLink> </li>
+          <li><NavLink to = 'contact'>Contact</NavLink> </li>
         </ul>
        <div>
          <footer>
@@ -35,7 +36,7 @@ function App() {
 
 
       <section className='forms'>
-        <div  >
+        <div>
           <form>
             <input type="text" id='search' placeholder='Search here ...'/>
           </form>

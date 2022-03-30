@@ -46,6 +46,13 @@ export default function Article() {
             <span>Published Date: {changeDate}</span>
             <span className='name'>Author: {article.author}</span>
             </div>
+
+            <div className='likes'>
+                <button><i class="fa-solid fa-heart"></i></button>
+                
+                <button><i class="fa-solid fa-thumbs-up"></i></button>
+                <button><i class="fa-solid fa-thumbs-down"></i></button>
+            </div>
             {/* <br></br> */}
             
           

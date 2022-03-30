@@ -7,7 +7,7 @@
 
 .homepage {
   display: grid; 
-  grid-template-columns:  1.5fr 0.3fr ; 
+  grid-template-columns:  1.4fr 0.4fr ; 
   
   gap: 0px 0px; 
   grid-template-areas: 
@@ -43,17 +43,19 @@ header a{
     text-decoration: none;
   
 }
-
-
 .logo{
   margin: 1em auto;
 }
+
+
 .logo a{
   font-size: 2.5em;
-  margin: 1em auto;
+  /* margin: 1em auto; */
   color: rgb(0, 4, 255);
   padding: 1em;
 }
+
+
 ul{
   display: block;
   padding: 1em 10px;
@@ -72,8 +74,6 @@ form{
   margin: 7em 1em;
   width: 95%;
   padding: 1em;
-  
-
 }
 
 input{
@@ -135,8 +135,6 @@ input:focus{
 }
 
 
-
-
 .article{
   border-right: 1px solid rgb(230, 230, 230) ;
   display: inline-block;
@@ -153,10 +151,6 @@ input:focus{
   border-right: 1px solid rgb(230, 230, 230) ;
 }
 
-/* article a{
-  
-} */
-
 .links{
   text-decoration: none;
   color: black;
@@ -167,9 +161,10 @@ input:focus{
   text-decoration: none;
 }
 a.active{
-  color: rgb(255, 0, 0);
+  color: #009acd;
   font-weight: bold;
-  
+  /* border-bottom: 2px solid black;
+   */
 }
 
 .story{
@@ -188,6 +183,18 @@ a.active{
   padding: 12px 18px;
 }
 
+.likes{
+  display: flex;
+  justify-content: center;
+}
+
+.likes button{
+  background-color: transparent;
+  border: none;
+  margin: 1em auto;
+  font-size: 1.6em;
+
+}
 .name{
   font-weight: bold;
   font-size: 1.2em;
@@ -347,6 +354,6 @@ a.active{
 
 
 footer{
-  padding: 7em 0.5em 0.5em 5px;
+  padding: 5em 0.5em 0.5em 5px;
 
 }
