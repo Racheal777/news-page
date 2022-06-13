@@ -51,7 +51,7 @@ header a{
 .logo a{
   font-size: 2.5em;
   /* margin: 1em auto; */
-  color: rgb(0, 4, 255);
+  color: red;
   padding: 1em;
 }
 
@@ -70,13 +70,13 @@ ul{
 }
 
 
-form{
+.formzz{
   margin: 7em 1em;
   width: 95%;
   padding: 1em;
 }
 
-input{
+.formzz input{
   border-radius: 15px;
   width: 100%;
   padding: 8px;
@@ -84,7 +84,7 @@ input{
 
 }
 
-input:focus{
+input, textarea:focus{
   
   outline: none;
 }
@@ -185,15 +185,107 @@ a.active{
 
 .likes{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .likes button{
   background-color: transparent;
   border: none;
-  margin: 1em auto;
+  margin: 1em auto auto 0.5em;
   font-size: 1.6em;
 
+}
+
+.likes button:hover{
+  color: red;
+}
+
+.heart p{
+  
+  padding: 6px;
+}
+
+.hearts button{
+  background-color: transparent;
+  border: none;
+  margin: 1em auto auto 0.5em;
+  font-size: 1.6em; 
+}
+
+.hearts button:hover{
+  color: red;
+}
+
+.formz{
+  width: 100%;
+  padding: 16px 8px;
+  margin: auto;
+  background: #fcfcfc;
+  box-shadow:  15px 2px 10px #e9e6e6,
+             15px -2px 10px #faf2f2;
+  
+  
+}
+.formz input, textarea{
+  margin: 0.5em auto;
+  width: 50%;
+  padding: 16px 18px;
+  border-radius: 3px;
+  border: none;
+background: #fcfcfc;
+box-shadow:  15px 2px 10px #e9e6e6,
+             15px -2px 10px #faf2f2;
+}
+
+.but{
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 0.3em 10em; */
+}
+
+.btns{
+  background-color: brown;
+  border: none;
+  margin: 1em 9em ;
+  padding: 14px 17px;
+  color: white;
+}
+.but button{
+  
+  align-items: flex-end;
+  
+  border: none;
+  color: rgb(70, 67, 67);
+  background-color: transparent;
+ 
+  border: none;
+  
+  font-size: 1.6em; 
+
+}
+
+.cardss{
+  margin: 1em auto;
+  display: inline-block;
+  width: 60%;
+  justify-content: center;
+  border-top: 1px solid rgb(156, 153, 153);
+
+}
+
+.com{
+  /* background-color: #e9e6e6; */
+  padding: 1em;
+  text-align: left;
+  border-bottom: 1px solid rgb(219, 222, 223);
+}
+
+.com p{
+  padding: 10px 2px;
+  overflow: hidden;
+}
+.reviews{
+  margin: 1em auto;
 }
 .name{
   font-weight: bold;

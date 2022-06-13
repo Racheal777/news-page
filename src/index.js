@@ -7,6 +7,7 @@ import About from './components/about';
 import Article from './components/article';
 import Articles from './components/articles';
 import Notfound from './components/notfound';
+// import Form from './components/form';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -17,13 +18,15 @@ ReactDOM.render(
         <Route path='/' element= {<App />}>
         <Route index element= {<Index/>}></Route>
           <Route path='about' element={<About/>}></Route>
-          <Route path='article' element= {<Articles/>}>
+          <Route path='article' element= {<Articles/>}></Route>
             
-          </Route>
+          
 
           <Route path='article/:articleId' element= {<Article/>}>
-          
+            {/* <Route path=''></Route> */}
           </Route>
+          
+         
 
           <Route path='*' element= {<Notfound/>}></Route>
           

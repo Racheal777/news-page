@@ -14,7 +14,7 @@ let articles = [
         "url": "https://medium.com/gitconnected/top-30-git-commands-you-should-know-to-master-git-cli-f04e041779bc",
         "source": "ABC News",
         "image": "../images/pics2.jpg",
-        "published_at": "2020-07-26T01:04:23+00:00"
+        "published_at": "2021-07-26T01:04:23+00:00"
     },
 
     {
@@ -37,7 +37,7 @@ let articles = [
         "url": "https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95",
         "source": "Medium",
         "image": "../images/pics3.jpg",
-        "published_at": "2020-07-26T01:04:23+00:00"
+        "published_at": "2022-07-26T01:04:23+00:00"
     },
 
     {
